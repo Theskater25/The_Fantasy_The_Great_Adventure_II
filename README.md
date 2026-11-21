@@ -1,6 +1,6 @@
 # The Fantasy Great Adventure II
 
-[Jouer en ligne](https://theskater25.github.io/the-great-fantasy-ii/game/) · [Voir le projet sur le portfolio](https://theskater25.github.io/MonUniversInformatique/generic.html#the-great-fantasy-ii)
+[Jouer en ligne](https://theskater25.github.io/The_Fantasy_The_Great_Adventure_II/game/) · [Voir le projet sur le portfolio](https://theskater25.github.io/MonUniversInformatique/generic.html#the-great-fantasy-ii)
 
 Campagne navigateur. Le récit reprend après le chapitre III de The Fantasy.
 
