@@ -1,0 +1,216 @@
+:root {
+  --campaign-ink: #101922;
+  --campaign-paper: #f5e9cc;
+  --campaign-gold: #efca82;
+  --campaign-line: #97835c;
+}
+
+.screen--title {
+  background:
+    radial-gradient(ellipse at center, #0a172354, #071017d9),
+    url("../assets/backgrounds/v27/aurora.png") center 55% / cover;
+  place-items: center;
+}
+.screen--title .title-screen {
+  container-type: inline-size;
+  width: min(100%, 690px);
+  padding: clamp(22px, 5vmin, 46px) clamp(16px, 5vw, 48px);
+  border-color: var(--campaign-line);
+  background: linear-gradient(155deg, #192933ef, #0c141bea);
+  box-shadow: 0 8px 0 #060c12bd, inset 0 0 0 4px #09131b90;
+}
+.screen--title .title-screen h1 {
+  color: var(--campaign-paper);
+  font-family: Georgia, serif;
+  font-size: clamp(1.65rem, 7vw, 4.25rem);
+  font-size: clamp(1.65rem, 11cqi, 4.25rem);
+  letter-spacing: .025em;
+  line-height: 1;
+  white-space: normal;
+  text-wrap: balance;
+  overflow-wrap: anywhere;
+}
+.screen--title .title-screen h2 {
+  color: var(--campaign-gold);
+  font-family: Georgia, serif;
+  font-size: clamp(.875rem, 2.5vw, 1.55rem);
+  font-size: clamp(.875rem, 4.2cqi, 1.55rem);
+  letter-spacing: .14em;
+  line-height: 1.2;
+  text-wrap: balance;
+}
+.screen--title .title-rune {
+  width: 52px;
+  height: 52px;
+  font-size: 28px;
+  color: var(--campaign-gold);
+  text-shadow: 0 0 20px #ffd7827d;
+}
+.screen--title .title-button--primary {
+  color: #171b20;
+  background: #efca82;
+  border-color: #ffe5a8;
+}
+.screen--title .title-button--primary:hover { background: #ffe2a4; }
+
+.screen--menu {
+  background: linear-gradient(180deg, #0b1824a8, #09171eb0 48%, #081117eb),
+    url("../assets/backgrounds/v27/mist.png") center / cover #0b1824;
+  image-rendering: pixelated;
+}
+.screen--menu .menu-wrap {
+  padding: clamp(16px, 3vw, 34px);
+  border: 1px solid #c7b38b51;
+  background: linear-gradient(145deg, #10212bed, #0b151eeb);
+  box-shadow: 0 8px 0 #07101880;
+}
+.screen--menu .brand { margin-bottom: clamp(20px, 3vw, 32px); }
+.screen--menu .brand > div { min-width: 0; }
+.screen--menu .brand h1 {
+  font-size: clamp(1.55rem, 4.7vw, 3.6rem);
+  line-height: 1;
+  overflow-wrap: anywhere;
+}
+.screen--menu .brand-mark { flex: 0 0 auto; }
+
+.chapter-card[data-chapter="1"],
+.screen--game[data-chapter="1"] { --realm-light: #88d6cf; --realm-dark: #15383a; }
+.chapter-card[data-chapter="2"],
+.screen--game[data-chapter="2"] { --realm-light: #f5c085; --realm-dark: #442e22; }
+.chapter-card[data-chapter="3"],
+.screen--game[data-chapter="3"] { --realm-light: #ccbcff; --realm-dark: #292344; }
+
+.menu-grid .chapter-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 0;
+  min-height: 282px;
+  padding: clamp(16px, 2vw, 24px);
+  border-color: color-mix(in srgb, var(--realm-light) 52%, #1b2229);
+  background-size: cover;
+  background-position: center;
+  box-shadow: inset 0 0 0 2px #101721a8, 0 7px 0 #121621;
+}
+.menu-grid .chapter-card h2 {
+  margin: 14px 0 10px;
+  color: var(--campaign-paper);
+  font-family: Georgia, serif;
+  font-size: clamp(1.35rem, 2.25vw, 1.8rem);
+}
+.menu-grid .chapter-card .card-cta {
+  position: static;
+  margin-top: auto;
+  padding-top: 16px;
+  line-height: 1.35;
+}
+.menu-grid .chapter-card--locked {
+  opacity: 1;
+  filter: saturate(.55);
+  border-color: #7e8a8c80;
+}
+.menu-grid .chapter-card--locked .card-cta { color: #ced6d4; }
+.menu-grid .chapter-card--in-development .card-cta { color: var(--campaign-gold); }
+.menu-grid .chapter-card .chapter-number,
+.menu-grid .chapter-card:not(.chapter-card--locked) .card-cta,
+.campaign-position { color: var(--realm-light, var(--campaign-gold)); }
+.campaign-position {
+  display: block;
+  margin-top: 5px;
+  font-size: .78rem;
+  line-height: 1.25;
+  letter-spacing: .03em;
+}
+.campaign-summary { color: var(--campaign-paper); font-size: .87rem; }
+.screen--game .scene-card {
+  border-color: color-mix(in srgb, var(--realm-light) 45%, #151c25);
+  background: linear-gradient(130deg, var(--realm-dark), var(--campaign-ink));
+}
+.screen--game .scene-meta { color: var(--realm-light); }
+.screen--game .combat-footer .btn--cyan {
+  border-color: color-mix(in srgb, var(--realm-light) 70%, #101922);
+  background: color-mix(in srgb, var(--realm-dark) 84%, var(--realm-light));
+}
+.screen--game .journey-panorama { border-color: color-mix(in srgb, var(--realm-light) 36%, #101922); }
+
+.scene-guides { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+.scene-guide {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  max-width: 100%;
+  padding: 4px 10px 4px 4px;
+  border: 1px solid #ffffff26;
+  background: #101922bb;
+  color: var(--campaign-paper);
+  font-size: .82rem;
+}
+.scene-guide img {
+  width: 34px;
+  height: 42px;
+  object-fit: contain;
+  object-position: center bottom;
+  image-rendering: pixelated;
+}
+.scene-card .chapter-status-note,
+.achievements-card .chapter-status-note {
+  margin: 10px 0;
+  color: var(--campaign-gold);
+  font: 600 .85rem/1.35 system-ui, sans-serif;
+}
+
+.pilgrim-pose { position: relative; max-width: 100%; }
+.pilgrim-frames {
+  display: none;
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  background: url("../assets/enemies/sprites/pelerin-de-sel-attaque.png") 55.555556% 0 / 1000% 100% no-repeat;
+  image-rendering: pixelated;
+}
+.enemy-portrait:is(.is-winding-up, .is-striking) .pilgrim-frames { display: block; }
+.enemy-portrait:is(.is-winding-up, .is-striking) .pilgrim-pose img { opacity: 0; }
+.enemy-portrait.is-striking .pilgrim-frames {
+  animation: salt-pilgrim-strike var(--pilgrim-strike-duration) steps(1, end) both;
+}
+@keyframes salt-pilgrim-strike {
+  0% { background-position-x: 55.555556%; }
+  20% { background-position-x: 66.666667%; }
+  40% { background-position-x: 77.777778%; }
+  60% { background-position-x: 88.888889%; }
+  80%, 100% { background-position-x: 100%; }
+}
+
+.campaign-sectors { display: grid; gap: 9px; margin: 0; padding: 0; list-style: none; }
+.campaign-sectors li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .75rem;
+  padding: 10px 12px;
+  border: 1px solid #ffffff24;
+  background: #16232d;
+}
+.campaign-sectors li[aria-current="step"] { border-color: var(--realm-light, var(--campaign-gold)); }
+.campaign-sectors li small { color: #c1cbd3; font-size: .75rem; text-align: right; }
+.campaign-achievements .trophy-summary {
+  border-color: #a99165;
+  background: linear-gradient(120deg, #26363e, #181b2b);
+}
+.campaign-achievements .achievement-row.is-unlocked { border-left: 3px solid #efca82; }
+.campaign-achievements .achievement-row.is-locked { border-left: 3px solid #55616d; }
+
+@media (max-width: 720px) {
+  .menu-grid .chapter-card { min-height: 215px; }
+  .campaign-position { font-size: .69rem; }
+  .is-compact .game-heading { min-width: 0; }
+  .is-compact .game-heading h1 { overflow-wrap: anywhere; }
+  .journal-tabs { flex-wrap: wrap; }
+}
+@media (max-height: 560px) {
+  .screen--title .title-screen { padding-block: 16px; }
+  .screen--title .title-rune { width: 40px; height: 40px; margin-bottom: 8px; font-size: 22px; }
+  .screen--title .title-line { margin-block: 12px; }
+  .screen--title .title-menu { gap: 6px; }
+  .screen--title .title-version { margin-top: 10px; }
+}

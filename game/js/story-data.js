@@ -1,0 +1,23 @@
+/* Classes héritées de The Fantasy 2.7. */
+window.TF_CLASSES = [
+    { id: "sorcier", name: "Sorcier", icon: "✦", accent: "#73c9ed", hp: 15, attack: 11, skill: "Gel", skillText: "0 dégâts de l'ennemi pendant 1 tour." },
+    { id: "archer", name: "Archer", icon: "➶", accent: "#b5d86a", hp: 13, attack: 11, skill: "Flèche explosive", skillText: "La prochaine attaque inflige +50 % de dégâts." },
+    { id: "chevalier", name: "Chevalier", icon: "♜", accent: "#d6ae62", hp: 19, attack: 15, skill: "Bouclier divin", skillText: "Réduit de 70 % les dégâts reçus pendant 2 tours." },
+    { id: "barbare", name: "Barbare", icon: "⚔", accent: "#e17b66", hp: 23, attack: 16, skill: "Fureur d'Odin", skillText: "Augmente les dégâts de 50 % pendant 2 tours." },
+    { id: "assassin", name: "Assassin", icon: "◈", accent: "#b58edc", hp: 13, attack: 13, skill: "Esquive ultime", skillText: "Vous subissez 0 dégât pendant ce tour." },
+    { id: "artificier", name: "Artificier", icon: "⚙", accent: "#e8b75f", hp: 16, attack: 16, skill: "Explosifs artisanaux", skillText: "Inflige trois fois votre attaque ; contre un boss, les dégâts sont limités à 45 % de ses PV max." },
+    { id: "bard", name: "Barde", icon: "♫", accent: "#e779aa", hp: 15, attack: 10, skill: "Musique étourdissante", skillText: "Étourdit l'ennemi pendant 3 tours." },
+    { id: "moine", name: "Moine", icon: "☯", accent: "#84c5a0", hp: 16, attack: 16, skill: "Fureur du moine", skillText: "Assène 3 coups violents pendant 1 tour." },
+    { id: "necromancien", name: "Nécromancien", icon: "☠", accent: "#8babc8", hp: 15, attack: 11, skill: "Drain de vie", skillText: "Inflige 100 % de dégâts et soigne 50 % des dégâts infligés." },
+    { id: "bouffon", name: "Bouffon du Roi", icon: "♠", accent: "#f08f6d", hp: 15, attack: 13, skill: "Chaos du bouffon", skillText: "Une action aléatoire s'active." },
+    { id: "samurai", name: "Samouraï", icon: "刀", accent: "#e5a85f", hp: 21, attack: 15, skill: "Iaijutsu", skillText: "Dégâts doublés avec une frappe éclair.", origin: "Japon féodal" },
+    { id: "shinobi", name: "Shinobi", icon: "忍", accent: "#9c8bd8", hp: 13, attack: 15, skill: "Pas de l'ombre", skillText: "Vous devenez invisible pendant ce tour et préparez une attaque renforcée.", origin: "Japon féodal" },
+    { id: "onmyoji", name: "Onmyoji", icon: "☯", accent: "#79c8d0", hp: 15, attack: 11, skill: "Shikigami", skillText: "Invoque un esprit qui blesse et gèle l'ennemi pendant 2 tours.", origin: "Japon féodal" },
+    { id: "miko", name: "Miko", icon: "⛩", accent: "#ed8d9d", hp: 17, attack: 11, skill: "Purification", skillText: "Blesse l'ennemi et vous rend une partie de vos PV.", origin: "Japon féodal" },
+    { id: "ronin", name: "Rōnin", icon: "浪", accent: "#b8c3a0", hp: 18, attack: 14, skill: "Contre parfait", skillText: "Réduit totalement les dégâts reçus et renforce la prochaine frappe.", origin: "Japon féodal" },
+    { id: "berserker", name: "Berserker", icon: "ᛒ", accent: "#d86c58", hp: 23, attack: 16, skill: "Rage de l'ours", skillText: "Déchaîne une frappe sauvage infligeant le double des dégâts.", origin: "Clans vikings" },
+    { id: "huskarl", name: "Húskarl", icon: "ᛉ", accent: "#7ca6c8", hp: 25, attack: 13, skill: "Mur de boucliers", skillText: "Réduit de 80 % les dégâts reçus pendant 2 tours.", origin: "Garde royale" },
+    { id: "valkyrie", name: "Valkyrie", icon: "ᚹ", accent: "#d8b66a", hp: 19, attack: 16, skill: "Ailes de Freyja", skillText: "Frappe l'ennemi et récupère 25 % de vos PV maximum.", origin: "Filles du ciel" },
+    { id: "seidr", name: "Völva Seiðr", icon: "ᛟ", accent: "#9d83c7", hp: 17, attack: 12, skill: "Prophétie des runes", skillText: "Inflige des dégâts mystiques et gèle l'ennemi pendant 2 tours.", origin: "Magie nordique" },
+    { id: "skald", name: "Skald", icon: "ᛏ", accent: "#c78869", hp: 20, attack: 11, skill: "Saga de guerre", skillText: "Étourdit l'ennemi pendant 3 tours et renforce votre prochaine frappe.", origin: "Chantres des sagas" },
+  ];

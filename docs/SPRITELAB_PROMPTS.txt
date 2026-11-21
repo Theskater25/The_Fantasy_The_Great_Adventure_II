@@ -1,0 +1,178 @@
+THE FANTASY GREAT ADVENTURE II — PROMPTS SPRITELAB
+Version révisée avec les réglages de Ronce
+
+50 prompts pour des sprites fixes. Ronce est déjà validée et son prompt est conservé comme référence. Le Pèlerin de Sel garde son sprite animé.
+
+RÉGLAGES DE GÉNÉRATION
+- Mode : Text to Sprite.
+- Modèle : Epic. Une variante. Coût affiché : 1 crédit.
+- Direction : 3/4.
+- Détail : Moderate.
+- Height : préréglage 128 px pour la génération.
+- Advanced Cleanup : désactivé.
+- Isometric, Rotation et Sprite pack : désactivés.
+
+Copie la description du personnage dans Describe your sprite. Colle ces mêmes notes dans Style notes :
+
+Bold, continuous silhouette. Large blocks of mid-tone color. Solid, clearly filled shapes. Simple two-tone shading and clean pixel edges. Single character, no scenery, no lettering.
+
+AVANT D’EXPORTER
+1. Sur le damier ou avec BG, vérifie que le corps, les vêtements et l’équipement sont pleins. Les ouvertures naturelles, comme entre les jambes, peuvent rester transparentes.
+2. Dans Crisp Sizes, choisis la première taille nette indiquée par SpriteLab. Pour Ronce, c’est 94 px. Cette valeur varie selon le sprite. Le 128 px sert de réglage de départ.
+3. Exporte un PNG transparent. Laisse la tête, les pieds et les accessoires dans le cadre. On ajustera la taille à l’écran dans le jeu.
+
+CHAPITRE IV — LES CLOCHES DE SEL
+
+La Jardinière de Corail · étape 40
+Full-body pixel art sprite of the Coral Gardener standing in both boots. She wears a solid sea-green apron over a blue-gray work coat, with a branching red coral crown. She holds a short hooked pruning staff.
+
+L’Armateur aux Visages · étape 60
+Full-body pixel art sprite of a broad harbor merchant in a solid slate-blue naval coat, ochre trousers and brown boots. Three cream theater masks hang from his belt. A closed brown ledger rests under one arm.
+
+Ronce, la Veilleuse · étape 80 · sprite déjà validé
+Full-body pixel art sprite of Ronce, a harbor captain standing firmly with both boots visible. She wears a solid olive-green coat over medium-gray iron armor and holds a broad shield made of warm brown wooden boards. A small red lantern hangs from her belt. Three-quarter view.
+
+L’Orgue des Noyés · étape 100
+A complete pixel art sprite of a squat living pipe organ. Thick sea-green copper pipes rise from a solid bronze cabinet with a broad row of ivory keys. Two stout wooden supports hold the cabinet up. A few cream shells cling to the base.
+
+Maë la plongeuse · guide
+Full-body pixel art sprite of Maë, a harbor diver in a solid teal oilskin coat, tan trousers and tall brown boots. She carries a thick rope coil over one shoulder and a brass lantern at her side.
+
+Sorel le sonneur · guide
+Full-body pixel art sprite of Sorel, an elderly bell-ringer in a solid slate-blue tower coat and a cream scarf. He carries a bronze key ring and a small handbell. Both boots are visible.
+
+Plongeur de Nacre · classe
+Full-body pixel art sprite of a harbor adventurer in a teal diving suit with a brass shoulder harness and broad brown boots. He carries a compact harpoon and a simple rope reel.
+
+Sonneur de Sel · classe
+Full-body pixel art sprite of a bell musician in a blue-gray coat with rolled sleeves and a cream sash. Three chunky bronze handbells hang from a shoulder rack. Both hands and boots are visible.
+
+Verrière des Docks · classe
+Full-body pixel art sprite of a dockside glassworker in a solid mint-green leather apron over a gray-blue tunic. She wears tan gloves and brass goggles and holds a solid jade prism with one pale highlight.
+
+Veilleuse de la Digue · classe
+Full-body pixel art sprite of a seawall sentinel in a pale green half-cape, gray scale armor and heavy brown boots. She stands firmly behind an anchor-shaped wooden shield with an iron rim.
+
+Herboriste de Corail · classe
+Full-body pixel art sprite of a coastal healer in a solid cream raincloak, rose scarf and tan boots. She carries a round herb satchel and a small coral-pink vial.
+
+CHAPITRE V — LE DÉSERT DES HEURES
+
+Varek, le Douanier de Verre · étape 20
+Full-body pixel art sprite of Varek, a desert toll keeper in slate-blue robes and solid amber glass armor plates. He holds a large bronze toll stamp. A small wooden picture frame hangs at his belt.
+
+Sama, la Garde des Puits · étape 40
+Full-body pixel art sprite of Sama in solid copper armor and a sand-colored headwrap. She stands behind a round copper shield with a blue center, with a waterskin at her hip and both boots visible.
+
+Le Souffleur Aveugle · étape 60
+Full-body pixel art sprite of a stocky glassblower wearing a gray blindfold, a solid rust-red apron, pale tan gloves and brown boots. He holds a short blowpipe tipped with a solid amber glass sphere.
+
+Le Greffier du Midi · étape 80
+Full-body pixel art sprite of a tall official in solid dusty indigo robes with ochre cuffs. He carries a thick pale ledger and a large red wax seal. Keep the lower robe and both shoes visible.
+
+Le Chasseur des Silences · étape 100
+Full-body pixel art sprite of a desert tracker in a solid ochre coat, olive scarf and light brown boots. He carries a short wooden bow, with three muted bronze bells attached to his belt.
+
+Safra, l’Écuyère · étape 120
+Full-body pixel art sprite of Safra, a palace squire standing in solid silver-gray armor and a brick-red half-cape. She carries a short sword held low and a small ochre banner.
+
+L’Aube de Cendre · étape 140
+Full-body pixel art sprite of a hooded figure in a solid ash-gray mourning robe with wide brick-red sleeves and both boots visible. She holds two copper lanterns with amber centers.
+
+Le Peseur de Jours · étape 160
+Full-body pixel art sprite of a broad keeper wearing a thick bronze apron over a solid rust-red tunic. He carries a small balance scale with two gold clock-shaped weights and stands in heavy tan boots.
+
+Le Prince d’un Jour · étape 180
+Full-body pixel art sprite of a young prince in a solid mauve ceremonial coat, pale gold vest and tan boots. He holds a small gold crown and a broken copper clock hand.
+
+La Régente Méridienne · étape 200
+Full-body pixel art sprite of a tall queen in solid plum and gold ceremonial robes with amber armor plates. A golden sundial crown frames her face. She holds a short scepter tipped with a solid hourglass.
+
+Néma l’archiviste · guide
+Full-body pixel art sprite of Néma, an archivist with short dark hair and copper-rimmed glasses. She wears a solid warm-gray linen coat and a burgundy sash. She holds a pale engraved tablet wrapped in cloth.
+
+Idris le caravanier · guide
+Full-body pixel art sprite of Idris, a caravan leader in an ochre headwrap and a solid clay-brown travel coat. He carries a rolled route map and a small bronze saddle lantern.
+
+Horloger d’Aurive · classe
+Full-body pixel art sprite of a desert clockmaker with a solid brass apron, teal sleeves and brown boots. He carries a large round pocket watch with a cream dial and a short winding key.
+
+Guide des Caravanes · classe
+Full-body pixel art sprite of a desert scout in a solid terracotta jacket, a sand-colored hood and brown boots. She carries a short bow and a compact ochre travel pack.
+
+Miroitier du Midi · classe
+Full-body pixel art sprite of a mirror artisan in a solid pale-gold cloak with thick tan gloves. He carries a round mirror with a solid silver-blue face and a single cream highlight.
+
+Gardienne des Citernes · classe
+Full-body pixel art sprite of a cistern protector wearing solid copper armor and a turquoise sash. She carries an oval copper shield with a large blue water symbol. Both boots are visible.
+
+Archiviste des Heures · classe
+Full-body pixel art sprite of a time archivist in solid lilac linen and tan leather boots. She carries a thick cream book with a bronze hourglass clasp. A rolled scroll hangs at her hip.
+
+CHAPITRE VI — LE JARDIN DU DERNIER CIEL
+
+Silve, le Cerf des Seuils · étape 20
+A complete pixel art sprite of Silve, a four-legged stag with solid warm-gray bark-like fur and lilac antler tips. Two small wooden tags hang from the antlers. Keep all four hooves and the entire crown of antlers visible.
+
+La Veuve des Miroirs · étape 40
+Full-body pixel art sprite of a veiled widow in a solid dusty-purple dress with a wide skirt and a pale gray veil. She holds a single silver mirror with a bold crack across its solid pale-blue face.
+
+La Pisteuse des Vents · étape 60
+Full-body pixel art sprite of a wind tracker in an ivory feathered mantle over a solid slate-blue coat. She carries a short tan bow and has three broad violet ribbons tied to her shoulder.
+
+Le Moine des Portes · étape 80
+Full-body pixel art sprite of a solemn monk in a solid plum robe with wide clay-gray cuffs and brown shoes. He carries a thick ring of stone keys and a short wooden staff.
+
+Le Greffeur de Cendre · étape 100
+Full-body pixel art sprite of a hunched orchard keeper in a solid moss-green apron over ash-gray clothing. He carries thick pruning shears and a basket with one amber glass fruit.
+
+La Gardienne du Serment · étape 120
+Full-body pixel art sprite of a northern sentinel wearing solid frost-blue armor and a cream fur mantle. She carries a short spear tipped with a chunky frozen key and a brown shield with a pale rune.
+
+Marn, le Ronge-Mémoire · étape 140
+A complete pixel art sprite of Marn, a stout four-legged burrowing beast. His body has solid chestnut bark plates, thick tan incisors and teal eyes. Show all feet and the entire wooden jaw.
+
+Le Taille-Nuages · étape 160
+Full-body pixel art sprite of a massive island mechanic in a solid gray-blue work coat and a chestnut rope harness. He holds a thick hooked blade with a bright steel face. Both boots are visible.
+
+Le Témoin du Pacte · étape 180
+Full-body pixel art sprite of an old traveler in a solid faded-violet robe and tan boots. He carries a thick ribbon-bound contract and a broken gold seal. A pale root-shaped scar crosses one cheek.
+
+La Porteuse de Foudre · étape 200
+Full-body pixel art sprite of a tall sentinel in solid storm-blue armor and an ivory cloak. She holds a single copper lightning rod upright, with a tiny pale-yellow spark at the tip.
+
+Arven, le Marteau Muet · étape 220
+Full-body pixel art sprite of Arven, a broad smith wearing a solid magenta leather apron over slate-gray sleeves. He holds a large iron hammer and a chunky bronze hinge. Both boots are visible.
+
+Le Collecteur d’Échos · étape 240
+Full-body pixel art sprite of a slender collector in a solid warm-brown hooded coat and tan boots. A wooden rack on his back holds three solid lavender glass jars with ochre lids.
+
+L’Archiviste des Portes · étape 260
+Full-body pixel art sprite of a stern librarian in a solid slate-blue coat with parchment-colored shoulders. She carries a thick leather book and a ring of heavy bronze keys.
+
+Le Serpent des Sèves · étape 280
+A complete pixel art sprite of a thick coiled serpent made of solid chestnut wood. Broad golden sap stripes run along the body. It has a wide head and two short root-like horns. Keep the entire coil visible.
+
+L’Astre Creux · étape 300
+A complete pixel art sprite of a floating ancient star with five thick, solid arms made of ochre stone and lilac-brown roots. A deep-violet solid disk marks its sunken center. Keep all five points in the frame.
+
+Ione la greffière · guide
+Full-body pixel art sprite of Ione, a plant grafter in a solid moss-green apron over an ivory robe. She carries a shallow basket of green saplings and a small pair of silver pruning shears.
+
+Tamsin l’arpenteuse · guide
+Full-body pixel art sprite of Tamsin, a surveyor with short hair, a solid lavender wind cloak and brown climbing boots. She holds a folded cream map and a chunky brass compass.
+
+Arpenteuse du Ciel · classe
+Full-body pixel art sprite of a sky surveyor in a solid blue-violet climbing coat with broad tan rope loops and light brown boots. She carries a short folding brass telescope.
+
+Greffière d’Orrée · classe
+Full-body pixel art sprite of a root healer in solid sage-green robes and pale leather boots. She holds a curved brown root staff with one large patch of fresh green leaves.
+
+Forgeron d’Astre · classe
+Full-body pixel art sprite of a celestial smith wearing solid plum workwear and thick tan gloves. He carries a broad bronze hammer with one solid rose-colored ember set into its head.
+
+Héraut des Échos · classe
+Full-body pixel art sprite of a herald in a solid pale-blue cloak over lavender clothes. He carries a chunky ivory horn, with two silver tuning forks tucked into his tan sash.
+
+Gardien du Dernier Pont · classe
+Full-body pixel art sprite of a bridge guardian in solid ivory plate and a plum mantle. He carries a tall wooden shield shaped like a bridge arch, with broad pale-gold edges. Both boots are visible.
